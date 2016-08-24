@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<project ideVersion="0.4.10" name="jtrent238 Chrome Extension" version="1.0" description="Description goes here" packageIdentifier="com.jtrent238.chromeextension" projectFile="C:\Users\trent\AppData\Roaming\Chrome Extension Creator\.ChromeBuilderProjects\jtrent238 Chrome Extension\jtrent238 Chrome Extension.chromepr">
+  <helperScript/>
+  <icons>
+    <icon dimension="Size_16x16" iconFile="%PROJECT_ROOT%/images/10227394.png"/>
+    <icon dimension="Size_48x48" iconFile="%PROJECT_ROOT%/images/10227394.png"/>
+    <icon dimension="Size_128x128" iconFile="%PROJECT_ROOT%/images/10227394.png"/>
+  </icons>
+  <browser-action title="Press the button to see more actions" icon="%PROJECT_ROOT%/images/10227394.png">
+    <model background="#FFFFFFFF" padding="2" width="200">
+      <backgroundImage imagePath="" repeatX="false" repeatY="false" alignX="LEFT" alignY="TOP"/>
+      <controls>
+        <control name="Label" type="com.toolbardev.chromeextensioncreator.model.project.controls.LabelControl">
+          <properties>
+            <property name="background" type="java.awt.Color" value="#FFFFFF"/>
+            <property name="font" type="java.awt.Font" value="Arial-plain-12"/>
+            <property name="foreground" type="java.awt.Color" value="#FF000000"/>
+            <property name="text" type="java.lang.String" value="Social Media"/>
+            <property name="height" type="int" value="24"/>
+            <property name="border" type="com.toolbardev.chromeextensioncreator.model.project.properties.Border" value="[width=(1),style=(SOLID),color=(#FFFFFF),radius=(0)]"/>
+            <property name="paddingLeft" type="int" value="0"/>
+          </properties>
+        </control>
+        <control name="Social Box" type="com.toolbardev.chromeextensioncreator.model.project.controls.SocialBoxControl">
+          <properties>
+            <property name="iconsSize" type="com.toolbardev.chromeextensioncreator.model.project.properties.IconsSize" value="SIZE_24x24"/>
+            <property name="iconGap" type="int" value="8"/>
+            <property name="height" type="int" value="24"/>
+            <property name="border" type="com.toolbardev.chromeextensioncreator.model.project.properties.Border" value="[width=(1),style=(SOLID),color=(#FFFFFF),radius=(0)]"/>
+            <property name="paddingLeft" type="int" value="7"/>
+          </properties>
+        </control>
+      </controls>
+    </model>
+  </browser-action>
+  <options-page>
+    <options/>
+  </options-page>
+  <permissions/>
+  <other-options>
+    <pair name="enableGaSupport" value="false"/>
+    <pair name="postInstallURL" value="https://jtrent238.weebly.com"/>
+  </other-options>
+</project>
