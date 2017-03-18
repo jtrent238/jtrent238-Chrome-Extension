@@ -106,7 +106,42 @@ body {
     margin-left: 8px;
     background-image: url('/img/social/jtrent238_24x24.png');
 }
-#SocialBoxControl_id_2 .sbjtrent238 div{
+
+#ToolBoxControl_id_2 {
+    width: 198px;
+    float: left;
+    height: 24px;
+    position:relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 0px;
+}
+
+#ToolBoxControl_id_2 ul{
+    margin: 0px;
+    position: absolute;
+    padding-left: 7px;
+    height:24px;
+    overflow:  hidden;
+}
+
+#ToolBoxControl_id_2 li{
+    float: left;
+    list-style-type: none;
+    display: block;
+}
+
+#ToolBoxControl_id_2 li {
+    cursor: pointer;
+}
+
+#ToolBoxControl_id_2 div {
+    width: 24px;
+    height: 24px;
+    background-position: center center;
+}
+#ToolBoxControl_id_2 .tbpassgen div{
 
     margin-left: 8px;
     background-image: url('/img/tools/passgen_24x24.png');
