@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "jtrent238 Chrome Extension",
-  "version": "1.0",
+  "version": "1.0.0.1",
   "description": "Description goes here",
   "icons": {
     "48": "img/10227394.png",
@@ -17,6 +17,9 @@
     "page": "background.html"
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "cookies",
+    "topSites",
+    "unlimitedStorage"
   ]
 }
