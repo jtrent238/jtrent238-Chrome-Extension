@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 2px;
+    overflow-x: hidden;
+    background-color: rgba(255,255,255,1.0);
+    height: 52px;
+    width: 200px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+
+#LabelControl_id_1 {
+    font-size: 12px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    background: rgba(255,255,255,0.0);
+    color: rgba(0,0,0,1.0);
+    width: 198px;
+    float: left;
+    height: 24px;
+    position:relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 0px;
+}
+
+
+#SocialBoxControl_id_2 {
+    width: 198px;
+    float: left;
+    height: 24px;
+    position:relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 0px;
+}
+
+#SocialBoxControl_id_2 ul{
+    margin: 0px;
+    position: absolute;
+    padding-left: 7px;
+    height:24px;
+    overflow:  hidden;
+}
+
+#SocialBoxControl_id_2 li{
+    float: left;
+    list-style-type: none;
+    display: block;
+}
+
+#SocialBoxControl_id_2 li {
+    cursor: pointer;
+}
+
+#SocialBoxControl_id_2 div {
+    width: 24px;
+    height: 24px;
+    background-position: center center;
+}
+
+#SocialBoxControl_id_2 .sbFacebook div{
+
+    background-image: url('/img/social/FaceBook_24x24.png');
+}
+
+#SocialBoxControl_id_2 .sbGooglePlus div{
+
+    margin-left: 8px;
+    background-image: url('/img/social/GooglePlus_24x24.png');
+}
+#SocialBoxControl_id_2 .sbLinkedIn div{
+    display: none;
+
+    margin-left: 8px;
+    background-image: url('/none');
+}
+#SocialBoxControl_id_2 .sbMySpace div{
+    display: none;
+
+    margin-left: 8px;
+    background-image: url('/none');
+}
+#SocialBoxControl_id_2 .sbTwitter div{
+
+    margin-left: 8px;
+    background-image: url('/img/social/Twitter_24x24.png');
+}
+#SocialBoxControl_id_2 .sbYouTube div{
+
+    margin-left: 8px;
+    background-image: url('/img/social/YouTube_24x24.png');
+}
+#SocialBoxControl_id_2 .sbGitHub div{
+
+    margin-left: 8px;
+    background-image: url('/img/social/GitHub_24x24.png');
+}
+#SocialBoxControl_id_2 .sbjtrent238 div{
+
+    margin-left: 8px;
+    background-image: url('/img/social/jtrent238_24x24.png');
+}
+#SocialBoxControl_id_2 .title div{
+
+    margin-left: 8px;
+	font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+#SocialBoxControl_id_2 .copyright div{
+
+    margin-left: 8px;
+	font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+#ToolBoxControl_id_2 {
+    width: 198px;
+    float: left;
+    height: 24px;
+    position:relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255,255,255,0.0);
+    border-radius: 0px;
+}
+
+#ToolBoxControl_id_2 ul{
+    margin: 0px;
+    position: absolute;
+    padding-left: 7px;
+    height:24px;
+    overflow:  hidden;
+}
+
+#ToolBoxControl_id_2 li{
+    float: left;
+    list-style-type: none;
+    display: block;
+}
+
+#ToolBoxControl_id_2 li {
+    cursor: pointer;
+}
+
+#ToolBoxControl_id_2 div {
+    width: 24px;
+    height: 24px;
+    background-position: center center;
+}
+#ToolBoxControl_id_2 .tbpassgen div{
+
+    margin-left: 8px;
+    background-image: url('/img/tools/passgen_24x24.png');
+}
