@@ -2,10 +2,16 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link type="text/css" href="css/popup.css" rel="stylesheet"/>
+		<script src="https://cdn.ravenjs.com/3.22.3/raven.min.js" crossorigin="anonymous"></script>
+		<script>
+		Raven.config('https://14e0b9672bf2423e80363fa8e89bb625@sentry.io/288415').install()
+		Raven.context(function () {
+			initMyApp();
+			});
+		</script>
         <script type="text/javascript" src="helper.js"></script>
         <script type="text/javascript" src="js/popup.js"></script>
-    <p class="title"><center>jtrent238's Chrome Extention</center></p>
-	</head>
+    </head>
     <body>
 
 
@@ -36,7 +42,4 @@
 </div>
         
     </body>
-		<footer>
-	<p class="copyright"><center>Copyright © 2017 jtrent238</center></p>
-		</footer>
 </html>

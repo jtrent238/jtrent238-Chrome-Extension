@@ -106,18 +106,6 @@ body {
     margin-left: 8px;
     background-image: url('/img/social/jtrent238_24x24.png');
 }
-#SocialBoxControl_id_2 .title div{
-
-    margin-left: 8px;
-	font-family: "Times New Roman", Times, serif;
-    font-style: italic;
-}
-#SocialBoxControl_id_2 .copyright div{
-
-    margin-left: 8px;
-	font-family: "Times New Roman", Times, serif;
-    font-style: italic;
-}
 
 #ToolBoxControl_id_2 {
     width: 198px;

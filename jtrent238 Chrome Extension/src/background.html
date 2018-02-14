@@ -2,6 +2,13 @@
 <head>
 </head>
 <body>
-<script type="text/javascript" src="background.js"></script>
+		<script src="https://cdn.ravenjs.com/3.22.3/raven.min.js" crossorigin="anonymous"></script>
+		<script>
+		Raven.config('https://14e0b9672bf2423e80363fa8e89bb625@sentry.io/288415').install()
+		Raven.context(function () {
+			initMyApp();
+			});
+		</script>
+	<script type="text/javascript" src="background.js"></script>
 </body>
 </html>
